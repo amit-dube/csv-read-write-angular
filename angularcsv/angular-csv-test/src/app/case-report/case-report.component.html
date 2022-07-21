@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Listing Items</title>
+</head>
+<body>
+  <div class="container-xl">
+    <div class="table-responsive">
+      <div class="table-wrapper">
+        <div class="table-title">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Manage <b>Items</b></h2>
+            </div>
+          </div>
+        </div>
+        <table>
+          <tr><td><a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" routerLinkActive="active"
+            [routerLink]="['/addcsvdata']">Add Data</a>
+            </td></tr>
+        </table>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>ID </th>
+              <th>Name </th>
+              <th>State</th>
+              <th>Zip</th>
+              <th>Amount</th>
+              <th>Qty</th>
+              <th>Item</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let record of records;let i = index;">
+              <td>{{record.id}}</td>
+              <td>{{record.name}}</td>
+              <td>{{record.state}}</td>
+              <td>{{record.zip}}</td>
+              <td>{{record.amount}}</td>
+              <td>{{record.qty}}</td>
+              <td>{{record.item}}</td>
+              <td>
+                <a href="#editEmployeeModal"  [routerLink]="['/editcsvdata/',record.id]" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                <a href="#deleteEmployeeModal" (click)="remove(record.id)" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
