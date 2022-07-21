@@ -1,0 +1,29 @@
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, int given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, string given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, string given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, string given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, string given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, int given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  array_merge(): Expected parameter 2 to be an array, int given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  fputcsv() expects parameter 2 to be array, null given in <b>C:\xampp\htdocs\TEST\PHP\Controllers\Api\AppController.php</b> on line <b>55</b><br />
+[{"id":"1","name":"Liquid Saffron","state":"NY","zip":"08998","amount":"25.43","qty":"7","item":"XCD45300"},{"id":"2","name":"Mostly Slugs","state":"PA","zip":"19008","amount":"13.30","qty":"2","item":"AAH6748"},{"id":5,"name":"Test","state":"dsafsa","zip":"222","amount":"22","qty":"43523","item":"43523"},{"id":6,"name":"fdsafsa","state":"uur","zip":"222","amount":"43523","qty":"22","item":"43523"},1,"Nagaraj","KA","560078","250",1,1,{"id":1,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":23,"name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":24,"name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"},{"id":"4","name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":26,"name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"},{"id":"7","name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"},{"id":20,"name":"Nagaraj","state":"KA","zip":"560078","amount":"250","qty":1,"item":1},{"id":28,"name":"davert","state":"NY","zip":"33434","amount":"4545","qty":"3","item":"iio9"}]
