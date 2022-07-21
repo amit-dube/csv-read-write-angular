@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Add Items</title>
+</head>
+<body>
+  <div class="container-xl">
+    <div class="table-responsive">
+      <div class="table-wrapper">
+        <div class="table-title">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Add <b>Items</b></h2>
+            </div>
+          </div>
+        </div>
+<div class="container">
+  <a href="#"  [routerLink]="['/']" class="btn btn-primary">Back</a>
+  <form [formGroup]="form"  (ngSubmit)="submit()">
+
+      <div class="form-group">
+          <label for="name">Name:</label>
+          <input formControlName="name" id="name" type="text" class="form-control">
+          <div *ngIf="f.name.touched && f.name.invalid" class="alert alert-danger">
+              <div *ngIf="f.name.errors?.required">Name is required.</div>
+              <div *ngIf="f.name.errors?.minlength">
+                Name must be at least 3 characters long.
+              </div>
+              <div *ngIf="f.name.errors?.pattern">
+                  Please enter the characters.
+              </div>
+          </div>
+      </div>
+
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input formControlName="state" id="state" type="text" class="form-control">
+        <div *ngIf="f.state.touched && f.state.invalid" class="alert alert-danger">
+            <div *ngIf="f.state.errors?.required">state is required.</div>
+            <div *ngIf="f.state.errors?.minlength">
+              State must be at least 2 characters long.
+            </div>
+            <div *ngIf="f.state.errors?.pattern">
+                Please enter the characters.
+            </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="zip">Zip:</label>
+        <input formControlName="zip" id="zip" type="text" class="form-control">
+        <div *ngIf="f.zip.touched && f.zip.invalid" class="alert alert-danger">
+            <div *ngIf="f.zip.errors?.required">zip is required.</div>
+            <div *ngIf="f.zip.errors?.minlength">
+              Zip must be at least 4 number long.
+            </div>
+            <div *ngIf="f.zip.errors?.pattern">
+              zip field must be numeric.
+            </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input formControlName="amount" id="amount" type="text" class="form-control">
+        <div *ngIf="f.amount.touched && f.amount.invalid" class="alert alert-danger">
+            <div *ngIf="f.amount.errors?.required">Amount is required.</div>
+            <div *ngIf="f.amount.errors?.minlength">
+              Amount must be at least 2 digit long.
+            </div>
+            <div *ngIf="f.amount.errors?.pattern">
+              Amount must be in digit.
+            </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="qty">Qty:</label>
+        <input formControlName="qty" id="qty" type="text" class="form-control">
+        <div *ngIf="f.qty.touched && f.qty.invalid" class="alert alert-danger">
+            <div *ngIf="f.qty.errors?.required">Qty is required.</div>
+            <div *ngIf="f.qty.errors?.minlength">
+              Quantity must be at least 1 digit long.
+            </div>
+            <div *ngIf="f.qty.errors?.pattern">
+                Quantity must be in digits.
+            </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="item">Item:</label>
+        <input formControlName="item" id="item" type="text" class="form-control">
+        <div *ngIf="f.item.touched && f.item.invalid" class="alert alert-danger">
+            <div *ngIf="f.item.errors?.required">Item is required.</div>
+            <div *ngIf="f.item.errors?.minlength">
+              Item must be at least 3 digit long.
+            </div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Save</button>
+
+  </form>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
